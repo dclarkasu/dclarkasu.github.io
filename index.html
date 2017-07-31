@@ -44,6 +44,45 @@
 					<li> <strong>Condition</strong> </li>
 					<li> <strong>Update statement</strong> </li>
 				</ol>
+		<h3> Choosing Between Decision Making Statements </h3>
+			<p> 'if/else' statements are incredibly useful and I look forward to becoming
+			more proficient with them. In particular, 'if' statements start with "if" and are
+			followed by a condition which must be a boolean expression. If the condition is true
+			then the following body of code is run, if it is false, it is skipped. 'else' combined 
+			with 'if' statements make it possible to run an alternate body of code if the 'if'
+			statement is not true. You don't have to figure out the logical opposite of the condition,
+			just use 'else.' </p>
+			<p> 'else if' (together) create another option where after skipping a false 'if' statement's
+			code, the program searches for the first true 'else if' statement and runs its
+			code instead. Only one 'else if' statement will be run, the first one that is true. </p>
+			<p> 'switch' statements make use of cases and colons. A 'switch()' statement is made
+			with a variable in parentheses and 'case' statements holding values that may match the
+			initial variable. The program searches through the cases until it finds a match and then it
+			runs the code on the opposite side of the colon until a 'break' which ends that body. 
+			Uses:</p>
+				<ul>
+					<li> 'if/else': Making decisions like discerning which code to run next based off of
+					user input. </li>
+					<li> 'switch': You can utilize the "fall-through" ability of cases (written without the 'break'
+					in between) to allow multiple cases, which equal different variables, to produce the same
+					result. </li>
+				</ul>
+		<h3> Method Declaration and Returning Values with a Function </h3>
+			<p> In a method declaration such as 'public static void main', "void" means that there will be 
+			no value returned. When calling a function with 'void' the program will carry out whatever
+			action you ordered but it will not return anything new. Instead of 'void' you can declare
+			a return type such as 'double', 'int', 'boolean', or 'String' if you want the function to 
+			return a value equal to one of those. </p>
+		<h3> "Parameter" vs. "Argument," is There a Difference? </h3>
+			<p> Yes, in short, I believe there is a difference and a reason for two different words.
+			In some circles they may be interchangeable among teams that understand one another, but 
+			there will still be need for clarification with other people. </p>
+			<p> "Parameter" is the variable in the declaration of a function. For example, in exercise 35 
+			of Java the Hard Way, the function being called is showDice(roll) and "roll" is the variable. 
+			The parameter is the variable called roll. The "Argument" in this case is the actual data that
+			is entered into that variable (roll). In this case it is required to be an integer. So
+			showDice(1) is an acceptable argument because the final product is one integer. Therefore, their
+			use can occur within the same program, or body of code, where a function is being called.</p>
 
 
 
